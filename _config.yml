@@ -2,6 +2,7 @@ title: Data Science Project Showcase
 author:
   name: Kendra Oan
   email: kendraoan@gmail.com
+  repository : https://github.com/KdrOHS/ITD214_Project.git
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
