@@ -6,6 +6,7 @@ categories: ITD214
 ---
 ## Project Background
 The project aims to develop a positive and supportive digital platform to provide emotional support and a sense of community for individuals experiencing loneliness and social isolation. The platform will offer a safe and anonymous space for users to connect, share experiences, and access resources to address their respective challenges.
+
 A significant portion of the population experiences feelings of loneliness and social isolation, often leading to negative mental health outcomes. The r/ForeverAlone community highlights a group of individuals struggling with these challenges. Currently, there is a lack of dedicated online platforms providing comprehensive support and community for this demographic. This project aims to address this gap by developing an online support system that offers emotional support, resources, and a sense of belonging to individuals within the r/ForeverAlone community.
 
 The business objectives of this project are : 
