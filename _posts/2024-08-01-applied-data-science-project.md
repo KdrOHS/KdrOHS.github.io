@@ -24,24 +24,24 @@ As for my part of the project, I will be focusing on business objective 2 to unc
 
 <img width="534" alt="image" src="https://github.com/user-attachments/assets/c75c9b6a-e0f8-47f0-abae-d08016bc2a0a">
 
-1. Install Required Packages
+1. Install Required Packages:
 -	Install the necessary Python libraries using pip:
 -	praw for interacting with the Reddit API
 -	pandas for data manipulation and analysis
 -	textblob for sentiment analysis (optional)
-2. Set Up Reddit App
+2. Set Up Reddit App:
 •	Create a Reddit app to access the API:
 -	App Name: ForeverAloneScraper
 -	App ID: RCwwv39rNnATMc1p5nL-DQ
-3. Set Up Reddit API Credentials
-•	Create a PRAW Reddit instance using the obtained credentials.
-4. Scrape Reddit Posts
+3. Set Up Reddit API Credentials:
+-  Create a PRAW Reddit instance using the obtained credentials.
+4. Scrape Reddit Posts:
 -	Define a function to scrape posts from r/foreveralone using the specified keywords (improve or better).
 -	Set search parameters (subreddit, query, limit=1000).
 -	Due to the specific keywords and subreddit nature, only 189 posts were available for scraping out of the intended 1000.
 -	Iterate through the scraped posts, extracting relevant information (title, post, comments, URL).
 -	Store the extracted data in a list.
-5. Export to CSV File
+5. Export to CSV File:
 - Define the CSV file name (FA_improve.csv).
 - Write the scraped data (post titles, posts, comments, URLs) to the CSV file.
 
