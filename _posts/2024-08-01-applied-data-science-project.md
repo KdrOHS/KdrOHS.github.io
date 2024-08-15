@@ -14,7 +14,7 @@ The business objectives of this project are :
 3.	Determine the likelihood of depression in users based on their demographic and behavioral attributes
 4.	Interpret the predominant emotions and overall sentiment expressed within the r/ForeverAlone community to understand the struggles and motivation of the users.
    
-To measure the project's success in enhancing user emotional well-being, we will aim to increase positive sentiment expressed in user posts by 20%
+To measure the project's success in enhancing user emotional well-being, we will aim to increase positive sentiment expressed in user posts by 20%.
 As for my part of the project, I will be focusing on business objective 2 to uncover the primary topics discussed within the r/ForeverAlone community.
 
 
