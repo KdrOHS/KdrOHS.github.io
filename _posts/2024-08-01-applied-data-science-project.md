@@ -37,9 +37,14 @@ Explain the analysis and recommendations
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
 
 ## AI Ethics
-Discuss the potential data science ethics issues (privacy, fairness, accuracy, accountability, transparency) in your project. 
+The primary AI ethics concern in this project revolves around issues with privacy where the potential identification of individual users despite the anonymous nature of Reddit may occur. While usernames are publicly visible, other personal information might be inadvertently revealed through: 
+-	Post content : personal information, such as location, occupation, or relationships may be revealed within posts. 
+-	Cross-platform correlations: Linking Reddit activity to other online profiles through shared information or patterns could identify individuals.
+  
+To mitigate these risks, I have only collected essential data related to my business objective, which are post and comments, and did not collect usernames which could potentially identify individuals. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
+Using keywords like “better” or “improve may also run the risk of introducing bias into the data collection process as focusing on these terms might overemphasis on positive outcomes and overlook negative experiences or challenges faced by the community. However, fortunately that was not the case as the scrapped text data was observed to have a predominantly negative sentiment which is aligned with the overall character of the forever alone subreddit. 
+
 
 ## Source Codes and Datasets
 [Project Source Code and Dataset]([(https://github.com/KdrOHS/ITD214_Project)])
