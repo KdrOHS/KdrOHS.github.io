@@ -20,7 +20,35 @@ As for my part of the project, I will be focusing on business objective 2 to unc
 
 
 ## Work Accomplished
-Document your work done to accomplish the outcome
+# Data Collection 
+
+<img width="534" alt="image" src="https://github.com/user-attachments/assets/c75c9b6a-e0f8-47f0-abae-d08016bc2a0a">
+
+| Steps | Description |
+| --- | --- |
+| 1. Install Required Packages | Install the necessary Python libraries using pip:
+- praw for interacting with the Reddit API
+- pandas for data manipulation and analysis
+- textblob for sentiment analysis |
+| 2. Set Up Reddit App | Create a Reddit app to access the API:
+- App Name: ForeverAloneScraper
+- App ID: RCwwv39rNnATMc1p5nL-DQ
+| 3. Set Up Reddit API Credentials | Create a PRAW Reddit instance using the obtained credentials|
+| 4. Scrap Reddit Post | 
+-	Define a function to scrape posts from r/foreveralone using the specified keywords (improve or better).
+-	Set search parameters (subreddit, query, limit=1000).
+-	Due to the specific keywords and subreddit nature, only 189 posts were available for scraping out of the intended 1000.
+-	Iterate through the scraped posts, extracting relevant information (title, post, comments, URL).
+- Store the extracted data in a list. |
+| 5. Export to CSV file | - 	Define the CSV file name (FA_improve.csv).
+  - Write the scraped data (post titles, posts, comments, URLs) to the CSV file.|
+
+The terms "improve" or "better" might seem limited in scope, but they can indirectly provide insights into the challenges faced by the r/ForeverAlone community and their aspirations.
+
+Users often express their desire for improvement in areas where they perceive shortcomings. For example, posts containing "improve social skills" can indicate challenges in social interaction.
+
+Users seeking to "better" their situation will also reveal their desired outcomes. 
+
 
 ### Data Preparation
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
