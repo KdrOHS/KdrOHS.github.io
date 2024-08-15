@@ -20,28 +20,31 @@ As for my part of the project, I will be focusing on business objective 2 to unc
 
 
 ## Work Accomplished
-# Data Collection 
+### Data Collection 
 
 <img width="534" alt="image" src="https://github.com/user-attachments/assets/c75c9b6a-e0f8-47f0-abae-d08016bc2a0a">
 
-| Steps | Description |
-| --- | --- |
-| 1. Install Required Packages | Install the necessary Python libraries using pip:
-- praw for interacting with the Reddit API
-- pandas for data manipulation and analysis
-- textblob for sentiment analysis |
-| 2. Set Up Reddit App | Create a Reddit app to access the API:
-- App Name: ForeverAloneScraper
-- App ID: RCwwv39rNnATMc1p5nL-DQ
-| 3. Set Up Reddit API Credentials | Create a PRAW Reddit instance using the obtained credentials|
-| 4. Scrap Reddit Post | 
--	Define a function to scrape posts from r/foreveralone using the specified keywords (improve or better).
--	Set search parameters (subreddit, query, limit=1000).
--	Due to the specific keywords and subreddit nature, only 189 posts were available for scraping out of the intended 1000.
--	Iterate through the scraped posts, extracting relevant information (title, post, comments, URL).
-- Store the extracted data in a list. |
-| 5. Export to CSV file | - 	Define the CSV file name (FA_improve.csv).
-  - Write the scraped data (post titles, posts, comments, URLs) to the CSV file.|
+1. Install Required Packages
+•	Install the necessary Python libraries using pip:
+o	praw for interacting with the Reddit API
+o	pandas for data manipulation and analysis
+o	textblob for sentiment analysis (optional)
+2. Set Up Reddit App
+•	Create a Reddit app to access the API:
+o	App Name: ForeverAloneScraper
+o	App ID: RCwwv39rNnATMc1p5nL-DQ
+•	Obtain your Reddit API credentials (client ID, client secret, user agent).
+3. Set Up Reddit API Credentials
+•	Create a PRAW Reddit instance using the obtained credentials.
+4. Scrape Reddit Posts
+•	Define a function to scrape posts from r/foreveralone using the specified keywords (improve or better).
+•	Set search parameters (subreddit, query, limit=1000).
+•	Due to the specific keywords and subreddit nature, only 189 posts were available for scraping out of the intended 1000.
+•	Iterate through the scraped posts, extracting relevant information (title, post, comments, URL).
+•	Store the extracted data in a list.
+5. Export to CSV File
+•	Define the CSV file name (FA_improve.csv).
+•	Write the scraped data (post titles, posts, comments, URLs) to the CSV file.
 
 The terms "improve" or "better" might seem limited in scope, but they can indirectly provide insights into the challenges faced by the r/ForeverAlone community and their aspirations.
 
