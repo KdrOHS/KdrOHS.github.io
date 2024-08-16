@@ -98,6 +98,39 @@ Users seeking to "better" their situation will also reveal their desired outcome
 - It assigns weights to words based on their frequency within a document and across the entire dataset.
 - Words that appear frequently in a document but rarely in others have higher TF-IDF scores.
 
+### Data Exploration 
+
+![image](https://github.com/user-attachments/assets/aa941d5a-c8ee-4cc1-abc8-ff0b6d43adc4)
+
+ The word cloud was generated using TF-IDF weighting, which emphasizes words with high frequency within specific posts but lower overall frequency within the dataset.
+
+ The word cloud reveals several prominent themes: 
+
+1. Loneliness and Isolation:
+
+The words "alone," "lonely," "isolation," and "forever" are central to the word cloud, emphasizing the core experience of community members.
+Terms like "friend," "friendship," and "relationship" suggest a strong desire for social connection and a yearning for deeper human interaction.
+
+2. Self-esteem and Negative Self-Perception:
+
+Words such as "ugly," "worthless," "reject," and "depress" indicate prevalent feelings of low self-esteem and negative self-perception among community members.
+Terms like "change" and "improve" suggest a desire for personal growth and overcoming these negative feelings.
+
+3. Challenges in Social Interaction:
+
+Words like "social," "date," "woman," and "man" highlight the difficulties users face in navigating social interactions and romantic relationships.
+Terms like "shy," "awkward," and "anxiety" suggest underlying social anxiety and discomfort.
+
+4. Seeking Support and Advice:
+
+The words "help," "advice," and "support" indicate a desire for guidance and understanding from the community.
+Terms like "talk," "listen," and "understand" suggest a need for empathetic and supportive interactions.
+
+5. Hope and Desire for Change:
+
+Words like "hope," "dream," and "better" suggest some level of optimism and a desire for a different future.
+Terms like "start," "change," and "improve" demonstrate a proactive approach to overcoming challenges.
+
 
 
 ### Modelling
