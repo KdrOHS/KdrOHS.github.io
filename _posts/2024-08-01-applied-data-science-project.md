@@ -75,6 +75,10 @@ To mitigate these risks, I have only collected essential data related to my busi
 
 Using keywords like “better” or “improve may also run the risk of introducing bias into the data collection process as focusing on these terms might overemphasis on positive outcomes and overlook negative experiences or challenges faced by the community. However, fortunately that was not the case as the scrapped text data was observed to have a predominantly negative sentiment which is aligned with the overall character of the forever alone subreddit. 
 
+Reddit Application Programming Interface (API) access policies has a strict data usage restriction. These restrictions impact data accessibility and requires researchers or developers to pay for access which not everyone has the financial resource to do so.  This raises concerns about fairness and inclusivity in AI as the restrictions potentially limiting innovation and the diversity of voices in AI research. 
+
+Additionally, Reddit's dataset has been a valuable resource for training AI models, particularly in natural language processing (NLP). The new restrictions could hinder research, particularly in areas like sentiment analysis and language generation. This may slow down advancements in AI and limit the diversity of datasets used in training, potentially leading to models that are less robust or biased.
+
 
 ## Source Codes and Datasets
 [Project Source Code and Dataset]([(https://github.com/KdrOHS/ITD214_Project)])
