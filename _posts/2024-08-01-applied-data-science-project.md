@@ -141,7 +141,7 @@ Some key observation from the graph include :
 
 2.Emphasis on Personal Struggles: Terms like "never," "alone," "help," "live," and "mean" suggest that users are grappling with feelings of loneliness, rejection, and difficulty navigating social situations.
 
-3. Search for Solutions: Words like "find," "talk," and "something" imply that users are actively seeking advice, support, and potential solutions to their challenges.
+3.Search for Solutions: Words like "find," "talk," and "something" imply that users are actively seeking advice, support, and potential solutions to their challenges.
 
 
 ### Modelling
