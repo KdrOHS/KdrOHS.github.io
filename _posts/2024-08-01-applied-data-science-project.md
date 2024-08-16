@@ -131,6 +131,17 @@ Terms like "talk," "listen," and "understand" suggest a need for empathetic and 
 Words like "hope," "dream," and "better" suggest some level of optimism and a desire for a different future.
 Terms like "start," "change," and "improve" demonstrate a proactive approach to overcoming challenges.
 
+![image](https://github.com/user-attachments/assets/bc3d20d4-c91e-4444-a75c-fa53112f6180)
+
+The term frequency graph was generated using TF-IDF weighting, this shows the top 20 most common words in the dataset. 
+
+Some key observation from the graph include : 
+
+1.High Frequency of Socially-Oriented Terms: Words like "friend," "someone," "woman," "relationship," "girl," "social," "love," and "date" dominate the graph. This indicates a strong focus on social interactions, romantic relationships, and the desire for companionship within the community.
+
+2.Emphasis on Personal Struggles: Terms like "never," "alone," "help," "live," and "mean" suggest that users are grappling with feelings of loneliness, rejection, and difficulty navigating social situations.
+
+3. Search for Solutions: Words like "find," "talk," and "something" imply that users are actively seeking advice, support, and potential solutions to their challenges.
 
 
 ### Modelling
