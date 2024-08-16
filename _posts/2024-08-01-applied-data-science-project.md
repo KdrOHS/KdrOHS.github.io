@@ -20,7 +20,8 @@ As for my part of the project, I will be focusing on business objective 2 to unc
 
 
 ## Work Accomplished
-### Data Collection 
+
+#### Data Collection 
 
 <img width="534" alt="image" src="https://github.com/user-attachments/assets/c75c9b6a-e0f8-47f0-abae-d08016bc2a0a">
 
@@ -50,7 +51,9 @@ The terms "improve" or "better" might seem limited in scope, but they can indire
 Users often express their desire for improvement in areas where they perceive shortcomings. For example, posts containing "improve social skills" can indicate challenges in social interaction.
 
 Users seeking to "better" their situation will also reveal their desired outcomes. 
-### Data Preparation
+
+## Data Preparation
+
 ### Data Transformation 
 
 ![image](https://github.com/user-attachments/assets/9b109744-5078-44f8-96ff-9261269a55c8)
@@ -74,11 +77,28 @@ Users seeking to "better" their situation will also reveal their desired outcome
 
 4. Drop the original columns 
 
+### Data Preprocessing
+![image](https://github.com/user-attachments/assets/b2519eb7-6e6e-4c13-8446-f3573f4354b7)
+
+1. Convert to lowercase, remove URL, punctuation, numbers, and special characters:
+- Standardizes the text by converting all characters to lowercase.
+- Remove URLs, punctuation, numbers, and special characters that can introduce noise and hinder the analysis.
+  
+2. Ensure no NaN values, tokenize:
+- Check  for missing values (NaN) in the text data and replaces them with empty strings.
+- Tokenization splits the text into individual words or tokens.
+  
+3. Remove stop words, lemmatize and stem:
+- Stop words are common words that carry little meaning in text analysis and are removed.
+- Lemmatization reduces words to their root form.
+- Stemming chops off word endings.
+  
+4. TF-IDF:
+- TF-IDF stands for Term Frequency-Inverse Document Frequency.
+- It assigns weights to words based on their frequency within a document and across the entire dataset.
+- Words that appear frequently in a document but rarely in others have higher TF-IDF scores.
 
 
-
-### Data Preparation
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
 
 ### Modelling
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
