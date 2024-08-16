@@ -50,6 +50,31 @@ The terms "improve" or "better" might seem limited in scope, but they can indire
 Users often express their desire for improvement in areas where they perceive shortcomings. For example, posts containing "improve social skills" can indicate challenges in social interaction.
 
 Users seeking to "better" their situation will also reveal their desired outcomes. 
+### Data Preparation
+### Data Transformation 
+
+![image](https://github.com/user-attachments/assets/9b109744-5078-44f8-96ff-9261269a55c8)
+
+1. Import Necessary Package 
+- Pandas: For data manipulation and analysis.
+- Matplotlib and Seaborn: For data visualization.
+- WordCloud: For creating word clouds.
+- Gensim: For natural language processing tasks.
+- NLTK: For natural language toolkit, including stop words.
+- Downloads the NLTK stopwords for later use.
+- Reads the CSV file into a Pandas DataFrame.
+
+2. Check Data Shape, Dtype, and Dataset
+- Displays the shape of the DataFrame (number of rows and columns).
+- Show the data types of each column.
+- Preview of the first few rows of the data.
+
+3. Combine text Columns
+- Concatenates the 'title', 'selftext', and 'comments' columns into a new column named 'text'.
+
+4. Drop the original columns 
+
+
 
 
 ### Data Preparation
