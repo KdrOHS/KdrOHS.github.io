@@ -38,7 +38,7 @@ As for my part of the project, I will be focusing on business objective 2 to unc
 4. Scrape Reddit Posts:
 -	Define a function to scrape posts from r/foreveralone using the specified keywords (improve or better).
 -	Set search parameters (subreddit, query, limit=1000).
--	Due to the specific keywords and subreddit nature, only 189 posts were available for scraping out of the intended 1000.
+-	Due to the specific keywords,subreddit nature and Reddit API restrictions only 189 posts were available for scraping out of the intended 1000.
 -	Iterate through the scraped posts, extracting relevant information (title, post, comments, URL).
 -	Store the extracted data in a list.
 5. Export to CSV File:
