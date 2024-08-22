@@ -15,7 +15,8 @@ The business objectives of this project are :
 3.	Determine the likelihood of depression in users based on their demographic and behavioral attributes
 4.	Interpret the predominant emotions and overall sentiment expressed within the r/ForeverAlone community to understand the struggles and motivation of the users.
    
-To measure the project's success in enhancing user emotional well-being, we will aim to increase positive sentiment expressed in user posts by 20%.
+To measure the project's success , we will aim to gather positive sentiment expressed in user posts of at least 20% after the online community has been set up.
+
 As for my part of the project, I will be focusing on business objective 2 to uncover the primary topics discussed within the r/ForeverAlone community.
 
 
@@ -39,7 +40,7 @@ As for my part of the project, I will be focusing on business objective 2 to unc
 4. Scrape Reddit Posts:
 -	Define a function to scrape posts from r/foreveralone using the specified keywords (improve or better).
 -	Set search parameters (subreddit, query, limit=1000).
--	Due to the specific keywords,subreddit nature and Reddit API restrictions only 189 posts were available for scraping out of the intended 1000.
+-	Due to the specific keywords,subreddit nature and Reddit API restrictions only 190 posts were available for scraping out of the intended 1000.
 -	Iterate through the scraped posts, extracting relevant information (title, post, comments, URL).
 -	Store the extracted data in a list.
 5. Export to CSV File:
@@ -100,52 +101,59 @@ Users seeking to "better" their situation will also reveal their desired outcome
 
 ### Data Exploration 
 
-![image](https://github.com/user-attachments/assets/aa941d5a-c8ee-4cc1-abc8-ff0b6d43adc4)
+![image](https://github.com/user-attachments/assets/d414defb-d54a-4495-b390-a0b9f1398de5)
+
 
  The word cloud was generated using TF-IDF weighting, which emphasizes words with high frequency within specific posts but lower overall frequency within the dataset.
 
  The word cloud reveals several prominent themes: 
 
-1. Loneliness and Isolation:
+1. Relationship and Social Connection:
 
-The words "alone," "lonely," "isolation," and "forever" are central to the word cloud, emphasizing the core experience of community members.
-Terms like "friend," "friendship," and "relationship" suggest a strong desire for social connection and a yearning for deeper human interaction.
+The words "relationship," "social," "friend," "partner," and "date." are central to the word cloud, emphasizing the core experience of community members. This suggest a a strong desire for relationships, companionship, and social connection. 
 
-2. Self-esteem and Negative Self-Perception:
+2. Self-esteem and low confidence:
 
-Words such as "ugly," "worthless," "reject," and "depress" indicate prevalent feelings of low self-esteem and negative self-perception among community members.
-Terms like "change" and "improve" suggest a desire for personal growth and overcoming these negative feelings.
+Words such as "worth," "confidence," and "attractiveness." could indicate users are struggling with low self-esteem and negative self-image.
 
-3. Challenges in Social Interaction:
+3. Emotional Struggles:
 
-Words like "social," "date," "woman," and "man" highlight the difficulties users face in navigating social interactions and romantic relationships.
-Terms like "shy," "awkward," and "anxiety" suggest underlying social anxiety and discomfort.
+Words like "lonely," "sad," "depressed," and "pain." highlight users are grappling with a range of emotional challenges, including loneliness, sadness, depression, and anxiety.
 
 4. Seeking Support and Advice:
 
-The words "help," "advice," and "support" indicate a desire for guidance and understanding from the community.
-Terms like "talk," "listen," and "understand" suggest a need for empathetic and supportive interactions.
+Users are actively seeking guidance and support to navigate their challenges. The words "help," "advice," and "support." indicate a desire for guidance and understanding from the community.
 
-5. Hope and Desire for Change:
+5. Negative Experiences:
+ A significant number of users have experienced negative experiences in relationships or social interactions. This is suggested by terms like "reject," "hurt," and "wrong."
 
-Words like "hope," "dream," and "better" suggest some level of optimism and a desire for a different future.
-Terms like "start," "change," and "improve" demonstrate a proactive approach to overcoming challenges.
+![image](https://github.com/user-attachments/assets/e2e76666-aa73-4bb8-afe3-a24e5f7de392)
 
-![image](https://github.com/user-attachments/assets/bc3d20d4-c91e-4444-a75c-fa53112f6180)
 
 The term frequency graph was generated using TF-IDF weighting, this shows the top 20 most common words in the dataset. 
 
 Some key observation from the graph include : 
 
-1.High Frequency of Socially-Oriented Terms: Words like "friend," "someone," "woman," "relationship," "girl," "social," "love," and "date" dominate the graph. This indicates a strong focus on social interactions, romantic relationships, and the desire for companionship within the community.
+1.High Frequency of Terms related to Relationship and Social Connection: Words like "friend," "someone," "never," "woman," and "relationship." dominate the graph. This indicates a strong desire for relationships, companionship, and social connection.
 
-2.Emphasis on Personal Struggles: Terms like "never," "alone," "help," "live," and "mean" suggest that users are grappling with feelings of loneliness, rejection, and difficulty navigating social situations.
+2.Emphasis on Emotional Struggles: Terms like "alone," "mean," "live," and "give." suggest that users are grappling with feelings of loneliness, rejection, and depression.
 
-3.Search for Solutions: Words like "find," "talk," and "something" imply that users are actively seeking advice, support, and potential solutions to their challenges.
+3.Search for Solutions:  Users are actively seeking guidance and support to navigate their challenges. This is indicated by terms like "help," "talk," and "always."
+
+4. Self-Esteem and Confidence : While less prominent than the previous themes, there is some evidence of concerns about self-esteem and confidence. This is suggested by terms like "attract" and "girl."
 
 
 ### Modelling
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
+To uncover the underlying latent topics within the dataset, Latent Dirichlet Allocation (LDA) will be employed to identify the primary themes or topics discussed by users. To find the most suitable number of topics, coherence scores and perplexity scores are calculated for different numbers of topics.
+
+![image](https://github.com/user-attachments/assets/4b44c0f0-5ca5-48a4-94ae-d876d75b1822)
+The coherence graph reaches a peak at around 10 topics. This indicates that a model with 10 topics provides the highest coherence score, suggesting it effectively captures the latent themes in the data. Beyond 10 topics, the coherence score starts to decrease. This suggests that adding more topics might lead to overfitting or less meaningful topic interpretations.
+
+![image](https://github.com/user-attachments/assets/6d1d5b6d-84ab-4465-b39b-0fa6c6f59b77)
+The perpelxity graph reaches a plateau around 8-10 topics. This suggests that adding more topics beyond this point doesn't significantly improve the model's fit.After the plateau, the perplexity score starts to increase slightly. This might indicate that adding too many topics could lead to overfitting or less meaningful topic interpretations.
+
+Based on the coherence and perplexity graphs, choosing 6 topics for the LDA model is a reasonable decision, especially given the relatively small dataset of 190 documents. While the coherence score continues to increase slightly beyond 6 topics, the improvement may not be substantial enough to warrant the additional complexity. The perplexity score plateaus around 8-10 topics, but there's a relatively small difference between the perplexity scores for 6 and 10 topics. With fewer topics, the results may be easier to interpret and understand.
+
 
 ### Evaluation
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
