@@ -179,7 +179,7 @@ The follwing can be observed in the LDA model topics :
 - Interpretation: This topic is likely related to relationships, love, and desire. The keywords suggest a focus on finding love, attraction, and the challenges and complexities of relationships.
 
 4. Topic 3:
--Keywords: "blood", "woman", "someon", "friend", "virgin", "date", "take", "mean", "never", "donat"
+- Keywords: "blood", "woman", "someon", "friend", "virgin", "date", "take", "mean", "never", "donat"
 -  No. of documents associated with Topic : 52
 -  Interpretation: This topic seems to be about social interactions, relationships, and potentially sensitive topics like  personal experiences with virginity, societal expectations surrounding it and experiences of never having had sex.  It's possible that the term "blood" is a misclassification where the LDA model might have misinterpreted the context in which "blood" was used. 
 
