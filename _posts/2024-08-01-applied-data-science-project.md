@@ -206,10 +206,10 @@ As observed in the intertopic map above, we could infer that :
 - Topic 5 and 6 appears to be relatively distant from the other topics, suggesting that it represents a distinct theme or set of discussions.
 - The size of the circle representing Topic 1 is the largest in in the intertopic map indicates that Topic 1 is the most prevalent topic within the dataset, suggesting that a significant portion of the discussions within the r/ForeverAlone community revolve around the themes associated with this topic. 
 
-## Recommendation and Analysis
+## Recommendation and Analysis (Business Objective)
 Given the LDA results, topic 4 and topic 5 seem to have some overlapping themes about relationships and social connections. While there are some differences in the specific keywords, the overall theme of both topics seems to be centered around relationships and social interactions. It's possible that these topics could be merged into a single, more comprehensive topic that encompasses both relationship-related and social connection-related discussions.
 
-The following proposed topics could be considered to meet the business objective of gaining insights into the specific challenges users face and determine what users hope to achieve through the online community for the purpose ofproviding online community support and resources to users : 
+The following proposed topics could be considered to meet the business objective of gaining insights into the specific challenges users face and determine what users hope to achieve through the online community for the purpose of providing online community support and resources to users : 
 
 1. Emotional Support
 - Focus : Users to discuss about thier emotional challenges, online community to offer peer advice addressing emotional challenges, and providing resources for mental health support.
@@ -230,6 +230,25 @@ The following proposed topics could be considered to meet the business objective
 5. Personal Growth and Development
 - Focus : Users to share resources for personal growth and life skills.
 - Potential Content: Articles on personal development strategies, and life skills workshops.
+
+## Buisness Goal Analysis 
+
+<img width="248" alt="image" src="https://github.com/user-attachments/assets/efa04af5-d75d-4f33-b380-62f8dc643503">
+
+After launching the online community, we encouraged members to share their daily experiences on the platform. To measure the overall sentiment of the online community and determine if it meets the target of at least a 20% positive sentiment rate, we'll be gathering data from the community members' posts, and analyse the sentiment expressed in the posts. 
+
+![image](https://github.com/user-attachments/assets/d3181f4b-84d6-4d03-907d-e02b91fa3234)
+
+
+Blue shades represents negative sentiment, grey shades represents neutral sentiment while red shade represent positive sentiment.
+
+The sentiment analysis in this case is performed using the TextBlob library. Based on the color distribution, it appears that negative sentiment is more prevalent in the dataset as there are more blue-shaded bars. Despite the dominance of negative sentiment, there is a range of sentiment scores within each color category. This suggests that while negative sentiment is prevalent, there are also instances of neutral sentiment.
+
+![image](https://github.com/user-attachments/assets/d204a87a-2ad2-48ca-8805-548becf74a6a)
+
+The majority of posts exhibit neutral sentiment, as indicated by the significantly taller grey bar.
+
+Based on the data, the business goal of achieving at least a 20% positive sentiment rate has been met. The red bar representing positive sentiment is above the 20% mark, indicating that a sufficient number of posts express positive emotions.
 
 ## AI Ethics
 The primary AI ethics concern in this project revolves around issues with privacy where the potential identification of individual users despite the anonymous nature of Reddit may occur. While usernames are publicly visible, other personal information might be inadvertently revealed through: 
