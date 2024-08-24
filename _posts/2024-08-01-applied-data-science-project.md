@@ -30,9 +30,8 @@ As for my part of the project, I will be focusing on business objective 2 to unc
 -	Install the necessary Python libraries using pip:
 -	praw for interacting with the Reddit API
 -	pandas for data manipulation and analysis
--	textblob for sentiment analysis (optional)
 2. Set Up Reddit App:
-•	Create a Reddit app to access the API:
+-	Create a Reddit app to access the API:
 -	App Name: ForeverAloneScraper
 -	App ID: RCwwv39rNnATMc1p5nL-DQ
 3. Set Up Reddit API Credentials:
@@ -266,7 +265,6 @@ Additionally, Reddit's dataset has been a valuable resource for training AI mode
 
 
 ## Source Codes and Datasets
-[Project Source Code and Dataset]([(https://github.com/KdrOHS/ITD214_Project)])
 https://github.com/KdrOHS/ITD214_Project
 
 
