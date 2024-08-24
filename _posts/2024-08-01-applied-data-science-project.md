@@ -134,11 +134,11 @@ The term frequency graph was generated using TF-IDF weighting, this shows the to
 
 Some key observation from the graph include : 
 
-1.High Frequency of Terms related to Relationship and Social Connection: Words like "friend," "someone," "never," "woman," and "relationship." dominate the graph. This indicates a strong desire for relationships, companionship, and social connection.
+1. High Frequency of Terms related to Relationship and Social Connection: Words like "friend," "someone," "never," "woman," and "relationship." dominate the graph. This indicates a strong desire for relationships, companionship, and social connection.
 
-2.Emphasis on Emotional Struggles: Terms like "alone," "mean," "live," and "give." suggest that users are grappling with feelings of loneliness, rejection, and depression.
+2. Emphasis on Emotional Struggles: Terms like "alone," "mean," "live," and "give." suggest that users are grappling with feelings of loneliness, rejection, and depression.
 
-3.Search for Solutions:  Users are actively seeking guidance and support to navigate their challenges. This is indicated by terms like "help," "talk," and "always."
+3. Search for Solutions:  Users are actively seeking guidance and support to navigate their challenges. This is indicated by terms like "help," "talk," and "always."
 
 4. Self-Esteem and Confidence : While less prominent than the previous themes, there is some evidence of concerns about self-esteem and confidence. This is suggested by terms like "attract" and "girl."
 
