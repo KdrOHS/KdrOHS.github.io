@@ -156,7 +156,46 @@ Based on the coherence and perplexity graphs, choosing 6 topics for the LDA mode
 
 
 ### Evaluation
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
+
+<img width="448" alt="image" src="https://github.com/user-attachments/assets/c85bbcd2-83fd-4341-ac7c-6fad2e07c4e0">
+
+To set the parameters for the LDA model , numeber of topics was set to 6 while number of top words to display for each topic was set to 10. The number of passess over the dataset during training was set at 20 passes. 
+
+The follwing can be observed in the LDA model topics : 
+
+1. Topic 0 :
+- Keywords: "unwant", "help", "alcohol", "hate", "take", "week", "someth", "food", "least", "social"
+- No. of documents associated with Topic : 30
+- Interpretation : This topic appears to focus on negative emotions, self-harm, and social isolation. The keywords suggest feelings of unwantedness, seeking help, substance abuse, and difficulty connecting with others.
+
+2. Topic 1:
+- Keywords: "woman", "ugli", "live", "attract", "averag", "citi", "find", "plan", "wrong", "someth"
+- No. of documents associated with Topic : 32
+- Interpretation: This topic seems to revolve around self-esteem, and dating difficulties. The keywords suggest concerns about appearance, and having difficulties to attract a partner.
+
+3. Topic 2:
+- Keywords: "love", "attract", "never", "someon", "someth", "live", "friend", "happi", "fuck", "take"
+- No. of documents associated with Topic : 46
+- Interpretation: This topic is likely related to relationships, love, and desire. The keywords suggest a focus on finding love, attraction, and the challenges and complexities of relationships.
+
+4. Topic 3:
+-Keywords: "blood", "woman", "someon", "friend", "virgin", "date", "take", "mean", "never", "donat"
+-  No. of documents associated with Topic : 52
+-  Interpretation: This topic seems to be about social interactions, relationships, and potentially sensitive topics like  personal experiences with virginity, societal expectations surrounding it and experiences of never having had sex.  It's possible that the term "blood" is a misclassification where the LDA model might have misinterpreted the context in which "blood" was used. 
+
+5. Topic 4 : 
+-  Keywords: "friend", "never", "girl", "someon", "social", "woman", "attract", "date", "find", "relationship"
+-  No. of documents associated with Topic : 149
+-  This topic is likely related to relationships, friendships, and challenges faced in social interactions. The keywords suggest discussions about friendships, dating, and difficulties finding social connections.
+
+6. Topic 5:
+- Keywords: "relationship", "someon", "love", "woman", "never", "cheat", "alon", "friend", "famili", "happi"
+- No. of documents associated with Topic : 73
+- This topic appears to focus on relationships, love, and family. The keywords suggest discussions about relationships, love, family dynamics, and happiness.
+
+The significantly higher number of documents associated with Topic 4, with 149 related documents, compared to the other topics suggests that this topic is the most prevalent within the dataset. This indicates that a large portion of the discussions within the r/ForeverAlone community revolves around the themes associated with Topic 4.
+
+The uneven distribution of documents across the topics highlights that some themes are more prevalent than others. This indicates that certain topics are of greater interest or concern to users within the community.
 
 ## Recommendation and Analysis
 Explain the analysis and recommendations
