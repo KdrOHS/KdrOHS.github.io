@@ -243,7 +243,7 @@ After launching the online community, we encouraged members to share their daily
 
 Blue shades represents negative sentiment, grey shades represents neutral sentiment while red shade represent positive sentiment.
 
-The sentiment analysis in this case is performed using the TextBlob library. Based on the color distribution, it appears that negative sentiment is more prevalent in the dataset as there are more blue-shaded bars. Despite the dominance of negative sentiment, there is a range of sentiment scores within each color category. This suggests that while negative sentiment is prevalent, there are also instances of neutral sentiment.
+The sentiment analysis in this case is performed using the TextBlob library. Based on the color distribution, it appears that positive sentiment is more prevalent in the dataset as there are more red-shaded bars. Despite the dominance of positive sentiment, there is a range of sentiment scores within each color category. This suggests that while positive sentiment is prevalent, there are also instances of neutral sentiment.
 
 ![image](https://github.com/user-attachments/assets/d204a87a-2ad2-48ca-8805-548becf74a6a)
 
