@@ -233,7 +233,8 @@ The following proposed topics could be considered to meet the business objective
 
 ## Buisness Goal Analysis 
 
-<img width="248" alt="image" src="https://github.com/user-attachments/assets/efa04af5-d75d-4f33-b380-62f8dc643503">
+<img width="266" alt="image" src="https://github.com/user-attachments/assets/7894300d-67b3-407b-869f-9a1e531912c8">
+
 
 After launching the online community, we encouraged members to share their daily experiences on the platform. To measure the overall sentiment of the online community and determine if it meets the target of at least a 20% positive sentiment rate, we'll be gathering data from the community members' posts, and analyse the sentiment expressed in the posts. 
 
