@@ -125,7 +125,8 @@ Words like "lonely," "sad," "depressed," and "pain." highlight users are grappli
 Users are actively seeking guidance and support to navigate their challenges. The words "help," "advice," and "support." indicate a desire for guidance and understanding from the community.
 
 5. Negative Experiences:
- A significant number of users have experienced negative experiences in relationships or social interactions. This is suggested by terms like "reject," "hurt," and "wrong."
+   
+A significant number of users have experienced negative experiences in relationships or social interactions. This is suggested by terms like "reject," "hurt," and "wrong."
 
 ![image](https://github.com/user-attachments/assets/e2e76666-aa73-4bb8-afe3-a24e5f7de392)
 
